@@ -1,14 +1,23 @@
 {
-  "name": "albatross-palettes",
+  "name": "albatross-backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "sass source.scss:backend/vars.css -I backend --no-source-map"
+    "build": "sass theme/source.scss:backend/vars.css -I backend --no-source-map --style=compressed"
   },
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "GPL-3.0-only",
+  "description": "Albatross Backend",
   "dependencies": {
     "sass": "^1.87.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbatrossCreative/Albatross-Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlbatrossCreative/Albatross-Backend/issues"
+  },
+  "homepage": "https://github.com/AlbatrossCreative/Albatross-Backend#readme"
 }

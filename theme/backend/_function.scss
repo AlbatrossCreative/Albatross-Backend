@@ -30,13 +30,11 @@
 	}
 }
 
-html:root {
+html{
 
-	&.visual-refresh .theme-light,
 	&.visual-refresh .theme-dark,
 	&.visual-refresh .theme-darker,
 	&.visual-refresh .theme-midnight,
-	&.visual-refresh.theme-light,
 	&.visual-refresh.theme-dark,
 	&.visual-refresh.theme-darker,
 	&.visual-refresh.theme-midnight  {
@@ -48,9 +46,5 @@ html:root {
 		@include ac-hslvar-func($ACA, 'accent', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 		@include ac-hslvar-func($ACBP, 'blurple', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 		--text-link: var(--brand-500);
-
-		&light {
-
-		}
 	}
 }

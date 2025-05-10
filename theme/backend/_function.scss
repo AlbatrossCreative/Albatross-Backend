@@ -30,8 +30,8 @@
 	}
 }
 
-html {
-    &.theme- {
+html:root {
+    &.visual-refresh .theme- {
         &dark, &darker, &midnight {
             @include ac-hslvar-func($ACBG-DARK, 'background', var(--ACV01), var(--ACV02), var(--ACV03));
             @include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), saturation);

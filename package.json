@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "sass theme/source.scss:theme/backend/albatross-vars.css -I backend --no-source-map --style=compressed"
+    "build": "sass theme/source.scss:theme/backend/albatross-vars.css -I theme/backend --no-source-map --style=compressed"
   },
   "author": "",
   "license": "GPL-3.0-only",

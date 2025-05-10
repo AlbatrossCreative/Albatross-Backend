@@ -1,7 +1,8 @@
 {
   "name": "albatross-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+
   "scripts": {
     "build": "sass theme/source.scss:theme/backend/albatross-vars.css -I theme/backend --no-source-map & sass theme/source.scss:theme/backend/albatross-vars-minified.css -I theme/backend --no-source-map --style=compressed"
   },
@@ -9,9 +10,9 @@
   "license": "GPL-3.0-only",
   "description": "Albatross Backend",
   "dependencies": {
+    "prettier": "^3.5.3",
     "sass": "^1.87.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlbatrossCreative/Albatross-Backend.git"

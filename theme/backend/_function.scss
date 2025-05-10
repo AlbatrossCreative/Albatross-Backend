@@ -30,11 +30,12 @@
 	}
 }
 
-html{
 
 	.theme-dark,
 	&.theme-dark,
 	.visual-refresh .theme-dark,
+	.visual-refresh.theme-darker,
+	.visual-refresh .theme-midnight,
 	&.visual-refresh .theme-dark,
 	&.visual-refresh .theme-darker,
 	&.visual-refresh .theme-midnight,
@@ -50,4 +51,3 @@ html{
 		@include ac-hslvar-func($ACBP, 'blurple', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 		--text-link: var(--brand-500);
 	}
-}

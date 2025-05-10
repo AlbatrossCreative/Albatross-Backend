@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
-html:root.visual-refresh .theme-dark, html:root.visual-refresh .theme-darker, html:root.visual-refresh .theme-midnight {
+html .theme-dark, html.theme-dark, html.visual-refresh .theme-dark, html.visual-refresh .theme-darker, html.visual-refresh .theme-midnight, html.visual-refresh.theme-dark, html.visual-refresh.theme-darker, html.visual-refresh.theme-midnight {
   --background-primary: hsla(calc(var(--ACV01)  + 0),
   	calc(var(--ACV02)  + 0%),
   	calc(var(--ACV03)  + 0%),
@@ -836,4 +836,5 @@ html:root.visual-refresh .theme-dark, html:root.visual-refresh .theme-darker, ht
   	calc(var(--saturation-factor) * calc(var(--ACV05)  + 0%)),
   	calc(var(--ACV06)  + 40%),
   	1) !important;
+  --text-link: var(--brand-500);
 }

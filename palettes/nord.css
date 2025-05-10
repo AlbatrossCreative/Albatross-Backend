@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+
+
+	/* Albatross Background HSL */
+	--ACV01: 220;
+	--ACV02: 17%;
+	--ACV03: 32%;
+
+	/* Albatross Accent HSL */
+	--ACV04: 354;
+	--ACV05: 42%;
+	--ACV06: 56%;
+
+	/* Albatross Text HSL */
+	--ACV07: 180;
+	--ACV08: 5%;
+	--ACV09: 87%;
+
+	/* Albatross Interactive HSL */
+	--ACV10: 90;
+	--ACV11: 3%;
+	--ACV12: 87%;
+
+	/* Background Modifier HSL */
+	--ACV13: 220;
+	--ACV14: 17%;
+	--ACV15: 32%;
+
+    /* Palette Info */
+    
+    --ACV16: 'Arctic Ice Studio';
+	--ACV17: 'Nord';
+
+	/* Skin Fonts */
+	--ACV18: 'Rubik', sans-serif;
+	--ACV19: 'Rubik', sans-serif;
+	--ACV20: 'Space Mono', monospace;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "albatross-palettes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass source.scss:backend/vars.css -I backend --no-source-map"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.87.0"
+  }
+}

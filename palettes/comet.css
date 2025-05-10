@@ -1,0 +1,37 @@
+:root {
+	/* Palette Background HSL */
+	--ACV01: 232;
+	--ACV02: 32%;
+	--ACV03: 27%;
+
+	/* Palette Accent HSL */
+	--ACV04: 170;
+	--ACV05: 76%;
+	--ACV06: 32%;
+
+	/* Palette Text HSL */
+	--ACV07: 240;
+	--ACV08: 11%;
+	--ACV09: 92%;
+
+	/* Palette Interactive HSL */
+	--ACV10: 213;
+	--ACV11: 47%;
+	--ACV12: 89%;
+
+	/* Background Modifier HSL */
+	--ACV13: 170;
+	--ACV14: 76%;
+	--ACV15: 36%;
+
+    /* Palette Info */
+
+    --ACV16: 'Loremly';
+	--ACV17: 'Nebula';
+
+	/* Palette Fonts */
+	--ACV18: 'Inter', sans-serif;
+	--ACV19: 'Noto Sans', sans-serif;
+	--ACV20: 'Source Code Pro', monospace;
+
+}

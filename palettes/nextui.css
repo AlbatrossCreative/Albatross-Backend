@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Special+Gothic&display=swap');
+
+:root {
+
+	/* Albatross Background HSL */
+	--ACV01: 240;
+	--ACV02: 6%;
+	--ACV03: 14%;
+
+	/* Albatross Accent HSL */
+	--ACV04: 212;
+	--ACV05: 100%;
+	--ACV06: 38%;
+
+	/* Albatross Text HSL */
+	--ACV07: 227;
+	--ACV08: 50%;
+	--ACV09: 95%;
+
+	/* Albatross Interactive HSL */
+	--ACV10: 226;
+	--ACV11: 100%;
+	--ACV12: 96%;
+
+	/* Background Modifier HSL */
+	--ACV13: 212;
+	--ACV14: 100%;
+	--ACV15: 29%;
+
+    /* Palette Info */
+
+    --ACV16: 'Nextui';
+	--ACV17: 'NextUI';
+
+	/* Palette Fonts */
+	--ACV18: 'Raleway', sans-serif;
+	--ACV19: 'Special Gothic', sans-serif;
+	--ACV20: 'Fira Code', monospace;
+}

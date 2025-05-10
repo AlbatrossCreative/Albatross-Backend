@@ -1,4 +1,4 @@
-:root {
+html:root {
 	/* Palette Background HSL */
 	--ACV01: 232;
 	--ACV02: 32%;
@@ -24,14 +24,13 @@
 	--ACV14: 76%;
 	--ACV15: 36%;
 
-    /* Palette Info */
+	/* Palette Info */
 
-    --ACV16: 'Loremly';
+	--ACV16: 'Loremly';
 	--ACV17: 'Nebula';
 
 	/* Palette Fonts */
 	--ACV18: 'Inter', sans-serif;
 	--ACV19: 'Noto Sans', sans-serif;
 	--ACV20: 'Source Code Pro', monospace;
-
 }

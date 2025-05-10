@@ -1,4 +1,4 @@
-:root {
+html:root {
 	/* Palette Background HSL */
 	--ACV01: 232;
 	--ACV02: 32%;
@@ -24,14 +24,13 @@
 	--ACV14: 76%;
 	--ACV15: 36%;
 
-    /* Palette Info */
-    
-    --ACV16: 'author';
+	/* Palette Info */
+
+	--ACV16: 'author';
 	--ACV17: 'name';
 
 	/* Palette Fonts */
 	--ACV18: 'font', sans-serif;
 	--ACV19: 'font', sans-serif;
 	--ACV20: 'font', monospace;
-
 }

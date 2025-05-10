@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Special+Gothic&display=swap');
 
-:root {
-
+html:root {
 	/* Albatross Background HSL */
 	--ACV01: 240;
 	--ACV02: 6%;
@@ -27,9 +26,9 @@
 	--ACV14: 100%;
 	--ACV15: 29%;
 
-    /* Palette Info */
+	/* Palette Info */
 
-    --ACV16: 'Nextui';
+	--ACV16: 'Nextui';
 	--ACV17: 'NextUI';
 
 	/* Palette Fonts */

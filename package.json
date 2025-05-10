@@ -4,7 +4,8 @@
   "private": true,
 
   "scripts": {
-    "build": "sass theme/source.scss:theme/backend/albatross-vars.css -I theme/backend --no-source-map & sass theme/source.scss:theme/backend/albatross-vars-minified.css -I theme/backend --no-source-map --style=compressed"
+    "buildthemevars": "sass theme/source.scss:theme/backend/albatross-vars.css -I theme/backend --no-source-map & sass theme/source.scss:theme/backend/albatross-vars-minified.css -I theme/backend --no-source-map --style=compressed",
+    "testthemevars": "sass --no-source-map theme/debug.scss:%APPDATA%/BetterDiscord/themes/Palettes.theme.css -I theme/backend --no-source-map --watch"
   },
   "author": "",
   "license": "GPL-3.0-only",

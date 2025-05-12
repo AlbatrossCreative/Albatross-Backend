@@ -1,33 +1,33 @@
 html:root {
 	/* Palette Background HSL */
-	--ACV01: 232;
-	--ACV02: 32%;
-	--ACV03: 27%;
+	--ACV01: 231;
+	--ACV02: 15%;
+	--ACV03: 18%;
 
 	/* Palette Accent HSL */
-	--ACV04: 170;
-	--ACV05: 76%;
-	--ACV06: 32%;
+	--ACV04: 265;
+	--ACV05: 89%;
+	--ACV06: 78%;
 
 	/* Palette Text HSL */
-	--ACV07: 240;
-	--ACV08: 11%;
-	--ACV09: 92%;
+	--ACV07: 60;
+	--ACV08: 30%;
+	--ACV09: 96%;
 
 	/* Palette Interactive HSL */
-	--ACV10: 213;
-	--ACV11: 47%;
-	--ACV12: 89%;
+	--ACV10: 281;
+	--ACV11: 100%;
+	--ACV12: 96%;
 
 	/* Background Modifier HSL */
-	--ACV13: 170;
-	--ACV14: 76%;
-	--ACV15: 36%;
+	--ACV13: 225;
+	--ACV14: 27%;
+	--ACV15: 51%;
 
 	/* Palette Info */
 
-	--ACV16: 'author';
-	--ACV17: 'name';
+	--ACV16: 'The Dracula Team';
+	--ACV17: 'Dracula';
 
 	/* Palette Fonts */
 	--ACV18: 'font', sans-serif;

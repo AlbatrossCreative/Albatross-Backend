@@ -1,8 +1,8 @@
 /**
- * @name Palettte Tester
+ * @name Palette Tester
  * @description 
  * @author Albatross Creative
- * @version 1.0.0
+ * @version 1.1.2
  * @website https://github.com/albatrosscreative/albatross-backend
  * @source https://albatrosscreative.github.io/Albatross-Backend/theme/backend/albatross-vars.css
  * @authorId 597072695875600385
@@ -10,7 +10,5 @@
  */
  
 @use 'backend';
-@use 'palettes/crearts.css';
+@use 'palettes/miyu';
 
-@import url('https://albatrosscreative.github.io/Albatross-Backend/theme/backend/albatross-vars.css');
-@import url('https://albatrosscreative.github.io/Albatross-Backend/theme/palettes/comet.css');

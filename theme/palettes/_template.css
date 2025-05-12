@@ -1,0 +1,36 @@
+html:root {
+	/* Palette Background HSL */
+	--ACV01: 000;
+	--ACV02: 00%;
+	--ACV03: 00%;
+
+	/* Palette Accent HSL */
+	--ACV04: 000;
+	--ACV05: 00%;
+	--ACV06: 00%;
+
+	/* Palette Text HSL */
+	--ACV07: 000;
+	--ACV08: 00%;
+	--ACV09: 00%;
+
+	/* Palette Interactive HSL */
+	--ACV10: 000;
+	--ACV11: 00%;
+	--ACV12: 00%;
+
+	/* Background Modifier HSL */
+	--ACV13: 000;
+	--ACV14: 00%;
+	--ACV15: 00%;
+
+	/* Palette Info */
+
+	--ACV16: 'author';
+	--ACV17: 'palette name';
+
+	/* Palette Fonts */
+	--ACV18: 'primary font', sans-serif;
+	--ACV19: 'secondary font', sans-serif;
+	--ACV20: 'code font', monospace;
+}

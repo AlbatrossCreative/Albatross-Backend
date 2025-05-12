@@ -30,11 +30,11 @@
 	}
 }
 
-@supports(color:color-mix(in lch, red, blue)) {
-
+	.theme-dark,
 	.visual-refresh.theme-dark,
-	.visual-refresh.theme-darker,
-	.visual-refresh.theme-midnight {
+	.visual-refresh .theme-dark,
+	.visual-refresh .theme-darker,
+	.visual-refresh .theme-midnight {
 		@include ac-hslvar-func($ACBG-DARK, 'background', var(--ACV01), var(--ACV02), var(--ACV03));
 		@include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), saturation);
 		@include ac-hslvar-func($ACT, 'text', var(--ACV07), var(--ACV08), var(--ACV09), saturation);
@@ -42,6 +42,9 @@
 		@include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 		@include ac-hslvar-func($ACA, 'accent', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 		@include ac-hslvar-func($ACBP, 'blurple', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
+
+	}
+	html:root{
 		--text-link: var(--brand-500);
 
 
@@ -82,4 +85,4 @@
 		--blue-secondary: #264ca3;
 		--blue-tertiary: #1e3685;
 	}
-}
+

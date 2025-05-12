@@ -1,0 +1,37 @@
+html:root {
+	/* Palette Background HSL */
+	--ACV01: 245;
+	--ACV02: 17%;
+	--ACV03: 14%;
+
+	/* Palette Accent HSL */
+	--ACV04: 307;
+	--ACV05: 26%;
+	--ACV06: 55%;
+
+	/* Palette Text HSL */
+
+	--ACV07: 287;
+	--ACV08: 100%;
+	--ACV09: 99%;
+
+	/* Palette Interactive HSL */
+	--ACV10: 281;
+	--ACV11: 100%;
+	--ACV12: 96%;
+
+	/* Background Modifier HSL */
+	--ACV13: 265;
+	--ACV14: 27%;
+	--ACV15: 40%;
+
+	/* Palette Info */
+
+	--ACV16: 'DesireRK';
+	--ACV17: 'Miyu';
+
+	/* Palette Fonts */
+	--ACV18: 'Montserrat', sans-serif;
+	--ACV19: 'Inter', sans-serif;
+	--ACV20: 'Source Code Pro', monospace;
+}

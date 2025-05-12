@@ -3,11 +3,7 @@ html:root {
   --ACV-COMMIT: "1bdf8d1" ;
 }
 
-.theme-dark,
-.visual-refresh.theme-dark,
-.visual-refresh .theme-dark,
-.visual-refresh .theme-darker,
-.visual-refresh .theme-midnight {
+html.theme-dark, html.visual-refresh.theme-dark, html.visual-refresh .theme-dark, html.visual-refresh .theme-darker, html.visual-refresh .theme-midnight {
   --background-primary: hsla(calc(var(--ACV01)  + 0),
   	calc(var(--ACV02)  + 0%),
   	calc(var(--ACV03)  + 0%),
@@ -845,7 +841,6 @@ html:root {
   	calc(var(--ACV06)  + 40%),
   	1) !important;
 }
-
 html:root {
   --text-link: var(--brand-500);
   --background-mobile: var(--background-secondary) !important;

@@ -32,6 +32,18 @@ html .visual-refresh .theme-midnight {
   	calc(var(--ACV02)  + 4%),
   	calc(var(--ACV03)  - 3%),
   	1) !important;
+  --background-base-low: hsla(calc(var(--ACV01)  + 0),
+  	calc(var(--ACV02)  + 0%),
+  	calc(var(--ACV03)  + 0%),
+  	1) !important;
+  --background-base-lower: hsla(calc(var(--ACV01)  - 1),
+  	calc(var(--ACV02)  + 2%),
+  	calc(var(--ACV03)  - 4%),
+  	1) !important;
+  --background-base-lowest: hsla(calc(var(--ACV01)  - 2),
+  	calc(var(--ACV02)  + 6%),
+  	calc(var(--ACV03)  - 11%),
+  	1) !important;
   --interactive-normal: hsla(calc(var(--ACV10)  + 0),
   	calc(var(--saturation-factor) * calc(var(--ACV11)  + 0%)),
   	calc(var(--ACV12)  + 0%),
@@ -844,18 +856,16 @@ html .visual-refresh .theme-midnight {
   	calc(var(--saturation-factor) * calc(var(--ACV05)  + 0%)),
   	calc(var(--ACV06)  + 40%),
   	1) !important;
-}
-html:root {
   --text-link: var(--brand-500);
+  --bg-base-primary: var(--background-primary);
+  --bg-base-secondary: var(--background-secondary);
+  --bg-base-tertiary: var(--background-tertiary);
   --background-mobile: var(--background-secondary) !important;
   --input-background: var(--background-floating) !important;
   --background-accent: var(--brand-500) !important;
   --modal-background: var(--background-primary) !important;
   --mention-background: var(--background-accent) !important;
   --mention-foreground: var(--brand-900) !important;
-  --background-base-low: var(--background-primary) !important;
-  --background-base-lower: var(--background-secondary) !important;
-  --background-base-lowest: var(--background-tertiary) !important;
   --status-active: placeholder;
   --status-dnd: placeholder;
   --status-invisible: placeholder;

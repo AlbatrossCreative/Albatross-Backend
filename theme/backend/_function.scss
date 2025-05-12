@@ -47,9 +47,11 @@ html{
 		@include ac-hslvar-func($ACA, 'accent', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 		@include ac-hslvar-func($ACBP, 'blurple', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 
-	}
-	&:root{
 		--text-link: var(--brand-500);
+
+		--bg-base-primary: var(--background-primary);
+		--bg-base-secondary: var(--background-secondary);
+		--bg-base-tertiary: var(--background-tertiary);
 
 
 		--background-mobile: var(--background-secondary) !important;
@@ -59,9 +61,6 @@ html{
 		--mention-background: var(--background-accent) !important;
 		--mention-foreground: var(--brand-900) !important;
 
-		--background-base-low: var(--background-primary) !important;
-		--background-base-lower: var(--background-secondary) !important;
-		--background-base-lowest: var(--background-tertiary) !important;
 
 		--status-active: placeholder;
 		--status-dnd: placeholder;

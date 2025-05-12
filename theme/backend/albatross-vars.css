@@ -853,6 +853,9 @@ html:root {
   --modal-background: var(--background-primary) !important;
   --mention-background: var(--background-accent) !important;
   --mention-foreground: var(--brand-900) !important;
+  --background-base-low: var(--background-primary) !important;
+  --background-base-lower: var(--background-secondary) !important;
+  --background-base-lowest: var(--background-tertiary) !important;
   --status-active: placeholder;
   --status-dnd: placeholder;
   --status-invisible: placeholder;

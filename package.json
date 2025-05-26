@@ -1,11 +1,12 @@
 {
   "name": "albatross-backend",
-  "version": "1.1.7",
+  "version": "1.3.0",
   "private": true,
 
   "scripts": {
-    "buildthemevars": "sass theme/source.scss:theme/backend/albatross-vars.css -I theme/backend --no-source-map & sass theme/source.scss:theme/backend/albatross-vars-minified.css -I theme/backend --no-source-map --style=compressed",
-    "testthemevars": "sass --no-source-map theme/debug.scss:%APPDATA%/BetterDiscord/themes/Palettes.theme.css -I theme/backend --no-source-map --watch"
+    "buildvars": "sass theme/source.scss:theme/backend/albatross-vars.css -I theme/backend --no-source-map & sass theme/source.scss:theme/backend/albatross-vars-minified.css -I theme/backend --no-source-map --style=compressed",
+    "devBD": "sass --no-source-map theme/debug.scss:%APPDATA%/BetterDiscord/themes/Palettes.theme.css -I theme/backend --no-source-map --watch",
+    "devVC": "sass --no-source-map theme/debug.scss:%APPDATA%/Vencord/themes/Palettes.theme.css -I theme/backend --no-source-map --watch"
   },
   "author": "",
   "license": "GPL-3.0-only",

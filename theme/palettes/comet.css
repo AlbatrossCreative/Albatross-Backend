@@ -33,4 +33,9 @@ html:root {
 	--ACV18: 'Inter', sans-serif;
 	--ACV19: 'Noto Sans', sans-serif;
 	--ACV20: 'Source Code Pro', monospace;
+
+	/* Border HSL */
+	--ACV21: 218;
+    --ACV22: 10%;
+    --ACV23: 36%;
 }

@@ -1,4 +1,5 @@
 $ACBG-DARK: (
+	// Albatross Creative Background Dark
 	'primary': (' + 0',
 		' + 0%',
 		' + 0%',
@@ -29,6 +30,16 @@ $ACBG-DARK: (
 		' - 3%',
 		'1',
 	),
+	'surface-higher': (' + 1',
+		' + 3%',
+		' - 7%',
+		'1',
+	),
+	'surface-highest': (' + 0',
+		' + 5%',
+		' - 9%',
+		'1',
+	),
 	'base-low': (' + 0',
 		' + 0%',
 		' + 0%',
@@ -47,6 +58,7 @@ $ACBG-DARK: (
 );
 
 $ACI: (
+	// Albatross Creative Interactive
 	'normal': (' + 0',
 		' + 0%',
 		' + 0%',
@@ -70,6 +82,7 @@ $ACI: (
 );
 
 $ACT: (
+	// Albatross Creative Text
 	'primary': (' + 0',
 		' + 0%',
 		' + 0%',
@@ -98,6 +111,7 @@ $ACT: (
 );
 
 $ACBM: (
+	// Albatross Creative Background Modifier
 	'hover': (' + 1',
 		' - 6%',
 		' - 12%',
@@ -120,6 +134,7 @@ $ACBM: (
 	),
 );
 $ACA: (
+	// Albatross Creative Accent
 	'05a': (' - 0', ' + 0%', ' -40%', '1'),
 	'10a': (' - 0', ' + 0%', ' -32%', '1'),
 	'15a': (' - 0', ' + 0%', ' -24%', '1'),
@@ -266,8 +281,16 @@ $ACA: (
 		'1',
 	),
 );
-
+$ACBV: (
+	// Albatross Creative Border Variables
+	'primary': (' - 0', ' + 0%', ' - 0%', '.2'),
+	'secondary': (' - 0', ' + 6%', ' - 20%', '.2'),
+	'secondary-alt': ('- 0', ' + 13%', ' + 9%', '.25'),
+	'tertiary': (' - 0', ' - 10%', ' - 33%', '.2'),
+	'active': (' - 10', ' + 15%', ' + 19%', '.35')
+);
 $ACBP: (
+	// Albatross Creative Blurple
 	// 1 to 100, same structure as '05a' in $NA
 	'1': (' - 0', ' + 0%', ' - 40%', '1'),
 	'2': (' - 0', ' + 0%', ' - 39.2%', '1'),

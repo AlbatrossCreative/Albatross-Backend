@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 html:root {
 	/* Albatross Background HSL */
 	--ACV01: 220;
@@ -35,4 +33,9 @@ html:root {
 	--ACV18: 'Rubik', sans-serif;
 	--ACV19: 'Rubik', sans-serif;
 	--ACV20: 'Space Mono', monospace;
+
+	/* Border HSL */
+	--ACV21: 209;
+	--ACV22: 17%;
+	--ACV23: 42%;
 }

@@ -33,4 +33,9 @@ html:root {
 	--ACV18: 'primary font', sans-serif;
 	--ACV19: 'secondary font', sans-serif;
 	--ACV20: 'code font', monospace;
+
+	/* Border HSL */
+	--ACV21: 0;
+    --ACV22: 100%;
+    --ACV23: 100%;
 }

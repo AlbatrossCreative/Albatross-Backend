@@ -10,7 +10,7 @@ html:root {
 	--ACV06: 78%;
 
 	/* Palette Text HSL */
-	--ACV07: 60;
+	--ACV07: 274;
 	--ACV08: 30%;
 	--ACV09: 96%;
 
@@ -33,4 +33,9 @@ html:root {
 	--ACV18: 'font', sans-serif;
 	--ACV19: 'font', sans-serif;
 	--ACV20: 'font', monospace;
+
+	/* Border HSL */
+	--ACV21: 285;
+    --ACV22: 17%;
+    --ACV23: 40%;
 }

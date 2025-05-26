@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
 
 html:root {
 	/* Palette Background HSL */
@@ -35,4 +34,9 @@ html:root {
 	--ACV18: 'Quicksand', sans-serif;
 	--ACV19: 'Montserrat', sans-serif;
 	--ACV20: 'Consolas', monospace;
+
+	/* Border HSL */
+	--ACV21: 227;
+    --ACV22: 19%;
+    --ACV23: 39%;
 }

@@ -34,4 +34,9 @@ html:root {
 	--ACV18: 'Montserrat', sans-serif;
 	--ACV19: 'Inter', sans-serif;
 	--ACV20: 'Source Code Pro', monospace;
+
+	/* Border HSL */
+	--ACV21: 285;
+    --ACV22: 10%;
+    --ACV23: 34%;
 }

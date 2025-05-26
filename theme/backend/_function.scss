@@ -46,6 +46,9 @@ html{
 		@include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 		@include ac-hslvar-func($ACA, 'accent', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 		@include ac-hslvar-func($ACBP, 'blurple', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
+		@include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), saturation);
+
+		--ac-border-accent: hsla(var(--ACV04), var(--ACV05), var(--ACV06), .25);
 
 		--text-link: var(--brand-500);
 
@@ -79,15 +82,19 @@ html{
 		--green-primary: #43b581;
 		--green-secondary: #61d09a;
 		--green-tertiary: #209967;
+		
 		--yellow-primary: #faa61a;
 		--yellow-secondary: #ffc23d;
 		--yellow-tertiary: #dc8c00;
+
 		--red-primary: #f04747;
 		--red-secondary: #ff6660;
 		--red-tertiary: #d12731;
+
 		--purple-primary: #593695;
 		--purple-secondary: #744fb1;
 		--purple-tertiary: #3e207c;
+
 		--blue-primary: #1d66d3;
 		--blue-secondary: #264ca3;
 		--blue-tertiary: #1e3685;

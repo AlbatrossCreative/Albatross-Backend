@@ -8,3 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.3.0] - 2025-05-25
 
 Official Release of Albatross Backend
+
+## [v1.4.0] - 2025-06-14
+
+### Added
+
+- Dracula theme
+  
+### Fixed
+
+- Fixed opacity vars
+- Fixed Icon and message variables

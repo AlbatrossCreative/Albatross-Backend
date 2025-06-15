@@ -49,8 +49,18 @@ html{
 		@include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), saturation);
 
 		--ac-border-accent: hsla(var(--ACV04), var(--ACV05), var(--ACV06), .25);
+		--border-strong: var(--ac-border-secondary-alt);
+
+		--icon-primary: var(--interactive-normal);
+		--icon-secondary: var(--interactive-hover);
+		--icon-muted: var(--interactive-disabled);
+		--icon-tertiary: var(--interactve-disabled);
+
 
 		--text-link: var(--brand-500);
+
+		--card-primary-bg: var(--background-primary);
+		--card-secondary-bg: var(--background-floating);
 
 		--bg-base-primary: var(--background-primary);
 		--bg-base-secondary: var(--background-secondary);
@@ -73,7 +83,7 @@ html{
 
 		--message-background: var(--background-primary);
 		--message-background-hover: var(--background-tertiary);
-		--message-background-mentioned: var(--background-accent);
+		--message-background-mentioned: var(--brand-430);
 		--message-background-mentioned-hover: var(--brand-330);
 
 		--scrollbar-thin-thumb: var(--brand-500) !important;

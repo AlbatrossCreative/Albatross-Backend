@@ -30,12 +30,12 @@ html:root {
 	--ACV17: 'Dracula';
 
 	/* Palette Fonts */
-	--ACV18: 'font', sans-serif;
-	--ACV19: 'font', sans-serif;
-	--ACV20: 'font', monospace;
+	--ACV18: 'Satoshi', sans-serif;
+	--ACV19: 'Satoshi', sans-serif;
+	--ACV20: 'JetBrains Mono', monospace;
 
 	/* Border HSL */
 	--ACV21: 285;
-    --ACV22: 17%;
+    --ACV22: 10%;
     --ACV23: 40%;
 }

@@ -1,3 +1,3 @@
-# Albatross Backend 1.3
+# Albatross Backend 1.4
 
 This repository maintains the backend that keeps Albatross running.

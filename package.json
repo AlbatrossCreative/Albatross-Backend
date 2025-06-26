@@ -1,10 +1,10 @@
 {
   "name": "albatross-backend",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "private": true,
 
   "scripts": {
-    "buildvars": "sass theme/source.scss:theme/backend/albatross-vars.css -I theme/backend --no-source-map & sass theme/source.scss:theme/backend/albatross-vars-minified.css -I theme/backend --no-source-map --style=compressed",
+    "compile": "sass theme/source.scss:theme/backend/albatross-vars.css -I theme/backend --no-source-map & sass theme/source.scss:theme/backend/albatross-vars-minified.css -I theme/backend --no-source-map --style=compressed",
     "devBD": "sass --no-source-map theme/debug.scss:%APPDATA%/BetterDiscord/themes/Palettes.theme.css -I theme/backend --no-source-map --watch",
     "devVC": "sass --no-source-map theme/debug.scss:%APPDATA%/Vencord/themes/Palettes.theme.css -I theme/backend --no-source-map --watch"
   },

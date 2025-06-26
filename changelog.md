@@ -19,3 +19,10 @@ Official Release of Albatross Backend
 
 - Fixed opacity vars
 - Fixed Icon and message variables
+
+
+## [v.1.4.1] - 2025-06-25
+
+### Fixed
+
+- Fixed text variable

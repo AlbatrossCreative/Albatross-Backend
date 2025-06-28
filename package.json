@@ -1,19 +1,22 @@
 {
   "name": "albatross-backend",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "private": true,
-
   "scripts": {
     "compile": "sass theme/source.scss:theme/backend/albatross-vars.css -I theme/backend --no-source-map & sass theme/source.scss:theme/backend/albatross-vars-minified.css -I theme/backend --no-source-map --style=compressed",
     "devBD": "sass --no-source-map theme/debug.scss:%APPDATA%/BetterDiscord/themes/Palettes.theme.css -I theme/backend --no-source-map --watch",
-    "devVC": "sass --no-source-map theme/debug.scss:%APPDATA%/Vencord/themes/Palettes.theme.css -I theme/backend --no-source-map --watch"
+    "devVC": "sass --no-source-map theme/debug.scss:%APPDATA%/Vencord/themes/Palettes.theme.css -I theme/backend --no-source-map --watch",
+    "devsite": "astro dev"
   },
   "author": "",
   "license": "GPL-3.0-only",
   "description": "Albatross Backend",
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.10",
+    "astro": "^5.10.1",
     "prettier": "^3.5.3",
-    "sass": "^1.87.0"
+    "sass": "^1.87.0",
+    "tailwindcss": "^4.1.10"
   },
   "repository": {
     "type": "git",

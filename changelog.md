@@ -26,3 +26,10 @@ Official Release of Albatross Backend
 ### Fixed
 
 - Fixed text variable
+
+
+## [v1.4.2] - 2025-06-28
+
+### Fixed
+
+- Fixed backend core variables

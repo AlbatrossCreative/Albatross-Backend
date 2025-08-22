@@ -14,10 +14,10 @@
 
 		@if $saturation {
 			// If saturation, add saturation factor
-			--#{$var}-#{$id}: hsla(calc(#{$h-base} #{$h-calc}),
-				calc(var(--saturation-factor) * calc(#{$s-base} #{$s-calc})),
-				calc(#{$l-base} #{$l-calc}),
-				#{$o}) !important;
+            --#{$var}-#{$id}: hsla(calc(#{$h-base} #{$h-calc}),
+                calc(calc(#{$s-base} #{$s-calc}) * var(--saturation-factor, 1)),
+                calc(#{$l-base} #{$l-calc}),
+                #{$o}) !important;
 		}
 
 		@else {
@@ -29,85 +29,109 @@
 		}
 	}
 }
-html{
-	&.theme-dark,
-	&.visual-refresh.theme-dark,
-	&.visual-refresh .theme-dark,
-	&.visual-refresh .theme-darker,
-	&.visual-refresh .theme-midnight,
-	.theme-dark,
-	.visual-refresh .theme-dark,
-	.visual-refresh .theme-darker,
-	.visual-refresh .theme-midnight {
+.theme-light,
+.images-light,
+.theme-light,
+.images-light,
+.theme-light {
+    @include ac-hslvar-func($ACBG-LIGHT, 'background', var(--ACV01), var(--ACV02), var(--ACV03));
+
+    @include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), saturation);
+    @include ac-hslvar-func($ACT, 'text', var(--ACV07), var(--ACV08), var(--ACV09), saturation);
+    @include ac-hslvar-func($ACBM, 'background-modifier', var(--ACV13), var(--ACV14), var(--ACV15), saturation);
+    @include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
+    @include ac-hslvar-func($ACA, 'accent', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
+    @include ac-hslvar-func($ACBP, 'blurple', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
+    @include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), saturation);
+    @include ac-hslvar-func($ACICON, 'icon', var(--ACV10), var(--ACV11), var(--ACV12), saturation);
+
+}
+
+.theme-dark,
+.images-dark,
+.theme-dark,
+.theme-darker,
+.theme-midnight,
+.images-dark,
+.theme-dark,
+.images-dark,
+.theme-dark,
+.theme-darker,
+.theme-midnight {
 		@include ac-hslvar-func($ACBG-DARK, 'background', var(--ACV01), var(--ACV02), var(--ACV03));
-		@include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), saturation);
+
+        @include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), saturation);
 		@include ac-hslvar-func($ACT, 'text', var(--ACV07), var(--ACV08), var(--ACV09), saturation);
 		@include ac-hslvar-func($ACBM, 'background-modifier', var(--ACV13), var(--ACV14), var(--ACV15), saturation);
 		@include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 		@include ac-hslvar-func($ACA, 'accent', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 		@include ac-hslvar-func($ACBP, 'blurple', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
 		@include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), saturation);
-
-		--ac-border-accent: hsla(var(--ACV04), var(--ACV05), var(--ACV06), .25);
-		--border-strong: var(--ac-border-secondary-alt);
-
-		--icon-primary: var(--interactive-normal);
-		--icon-secondary: var(--interactive-hover);
-		--icon-muted: var(--interactive-disabled);
-		--icon-tertiary: var(--interactve-disabled);
+        @include ac-hslvar-func($ACICON, 'icon', var(--ACV10), var(--ACV11), var(--ACV12), saturation);
+}
 
 
-		--text-link: var(--brand-500);
-
-		--card-primary-bg: var(--background-primary);
-		--card-secondary-bg: var(--background-floating);
-
-		--bg-base-primary: var(--background-primary);
-		--bg-base-secondary: var(--background-secondary);
-		--bg-base-tertiary: var(--background-tertiary);
 
 
-		--background-mobile: var(--background-secondary) !important;
-		--input-background: var(--background-floating) !important;
-		--background-accent: var(--brand-500) !important;
-		--modal-background: var(--background-primary) !important;
-		--mention-background: var(--background-accent) !important;
-		--mention-foreground: var(--brand-900) !important;
+:root {
+    --saturation-factor: 1;
+    --icon-primary: var(--interactive-normal) !important;
+    --icon-secondary: var(--interactive-hover) !important;
+    --icon-muted: var(--interactive-disabled) !important;
+    --icon-tertiary: var(--interactive-disabled) !important;
+
+    --ac-border-accent: hsla(var(--ACV04), calc(var(--saturation-factor, 1) * var(--ACV05)), var(--ACV06), .25) !important;
+    --border-strong: var(--ac-border-secondary-alt) !important;
+
+    --text-link: var(--brand-500) !important;
+    --text-default: var(--text-normal) !important;
+
+    --card-primary-bg: var(--background-primary) !important;
+    --card-secondary-bg: var(--background-floating) !important;
+
+    --bg-base-primary: var(--background-primary) !important;
+    --bg-base-secondary: var(--background-secondary) !important;
+    --bg-base-tertiary: var(--background-tertiary) !important;
+
+    --background-mobile: var(--background-secondary) !important;
+    --input-background: var(--background-floating) !important;
+    --background-accent: var(--brand-500) !important;
+    --modal-background: var(--background-primary) !important;
+    --mention-background: var(--background-accent) !important;
+    --mention-foreground: var(--brand-900) !important;
 
 
-		--status-active: placeholder;
-		--status-dnd: placeholder;
-		--status-invisible: placeholder;
-		--status-streaming: placeholder;
-		--status-idle: placeholder;
+    --status-active: placeholder;
+    --status-dnd: placeholder;
+    --status-invisible: placeholder;
+    --status-streaming: placeholder;
+    --status-idle: placeholder;
 
-		--message-background: var(--background-primary);
-		--message-background-hover: var(--background-tertiary);
-		--message-background-mentioned: var(--brand-430);
-		--message-background-mentioned-hover: var(--brand-330);
+    --message-background: var(--background-primary);
+    --message-background-hover: var(--background-tertiary);
+    --message-background-mentioned: var(--brand-430);
+    --message-background-mentioned-hover: var(--brand-330);
 
-		--scrollbar-thin-thumb: var(--brand-500) !important;
-		--scrollbar-auto-thumb: var(--brand-500) !important;
+    --scrollbar-thin-thumb: var(--brand-500) ;
+    --scrollbar-auto-thumb: var(--brand-500) ;
 
-		--green-primary: #43b581;
-		--green-secondary: #61d09a;
-		--green-tertiary: #209967;
-		
-		--yellow-primary: #faa61a;
-		--yellow-secondary: #ffc23d;
-		--yellow-tertiary: #dc8c00;
+    --green-primary: #43b581;
+    --green-secondary: #61d09a;
+    --green-tertiary: #209967;
 
-		--red-primary: #f04747;
-		--red-secondary: #ff6660;
-		--red-tertiary: #d12731;
+    --yellow-primary: #faa61a;
+    --yellow-secondary: #ffc23d;
+    --yellow-tertiary: #dc8c00;
 
-		--purple-primary: #593695;
-		--purple-secondary: #744fb1;
-		--purple-tertiary: #3e207c;
+    --red-primary: #f04747;
+    --red-secondary: #ff6660;
+    --red-tertiary: #d12731;
 
-		--blue-primary: #1d66d3;
-		--blue-secondary: #264ca3;
-		--blue-tertiary: #1e3685;
-	}
+    --purple-primary: #593695;
+    --purple-secondary: #744fb1;
+    --purple-tertiary: #3e207c;
 
+    --blue-primary: #1d66d3;
+    --blue-secondary: #264ca3;
+    --blue-tertiary: #1e3685;
 }

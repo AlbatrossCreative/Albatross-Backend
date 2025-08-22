@@ -1,4 +1,18 @@
-html:root {
+html:root{
+	/* Palette Info */
+
+	--ACV16: 'Arctic Ice Studio';
+	--ACV17: 'Nord';
+
+	/* Skin Fonts */
+	--ACV18: 'Rubik', sans-serif;
+	--ACV19: 'Rubik', sans-serif;
+	--ACV20: 'Space Mono', monospace;
+}
+
+.theme-dark,
+.theme-darker,
+.theme-midnight {
 	/* Albatross Background HSL */
 	--ACV01: 220;
 	--ACV02: 17%;
@@ -24,15 +38,37 @@ html:root {
 	--ACV14: 17%;
 	--ACV15: 32%;
 
-	/* Palette Info */
+	/* Border HSL */
+	--ACV21: 209;
+	--ACV22: 17%;
+	--ACV23: 42%;
+}
 
-	--ACV16: 'Arctic Ice Studio';
-	--ACV17: 'Nord';
+.theme-light {
+	/* Albatross Background HSL */
+	--ACV01: 220;
+	--ACV02: 28%;
+	--ACV03: 88%;
 
-	/* Skin Fonts */
-	--ACV18: 'Rubik', sans-serif;
-	--ACV19: 'Rubik', sans-serif;
-	--ACV20: 'Space Mono', monospace;
+	/* Albatross Accent HSL */
+	--ACV04: 354;
+	--ACV05: 42%;
+	--ACV06: 56%;
+
+	/* Albatross Text HSL */
+	--ACV07: 222;
+	--ACV08: 16%;
+	--ACV09: 27%;
+
+	/* Albatross Interactive HSL */
+	--ACV10: 213;
+	--ACV11: 32%;
+	--ACV12: 37%;
+
+	/* Background Modifier HSL */
+	--ACV13: 220;
+	--ACV14: 17%;
+	--ACV15: 32%;
 
 	/* Border HSL */
 	--ACV21: 209;

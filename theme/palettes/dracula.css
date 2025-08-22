@@ -1,4 +1,19 @@
-html:root {
+html:root{
+	/* Palette Info */
+
+	--ACV16: 'The Dracula Team';
+	--ACV17: 'Dracula';
+
+	/* Palette Fonts */
+	--ACV18: 'Satoshi', sans-serif;
+	--ACV19: 'Satoshi', sans-serif;
+	--ACV20: 'JetBrains Mono', monospace;
+
+}
+
+.theme-dark,
+.theme-darker,
+.theme-midnight {
 	/* Palette Background HSL */
 	--ACV01: 231;
 	--ACV02: 15%;
@@ -16,23 +31,46 @@ html:root {
 
 	/* Palette Interactive HSL */
 	--ACV10: 281;
-	--ACV11: 100%;
-	--ACV12: 96%;
+	--ACV11: 40%;
+	--ACV12: 36%;
 
 	/* Background Modifier HSL */
 	--ACV13: 225;
 	--ACV14: 27%;
 	--ACV15: 51%;
 
-	/* Palette Info */
+	/* Border HSL */
+	--ACV21: 285;
+    --ACV22: 10%;
+    --ACV23: 40%;
+}
 
-	--ACV16: 'The Dracula Team';
-	--ACV17: 'Dracula';
 
-	/* Palette Fonts */
-	--ACV18: 'Satoshi', sans-serif;
-	--ACV19: 'Satoshi', sans-serif;
-	--ACV20: 'JetBrains Mono', monospace;
+.theme-light {
+	/* Palette Background HSL */
+	--ACV01: 265;
+	--ACV02: 44%;
+	--ACV03: 86%;
+
+	/* Palette Accent HSL */
+	--ACV04: 253;
+	--ACV05: 59%;
+	--ACV06: 48%;
+
+	/* Palette Text HSL */
+	--ACV07: 274;
+	--ACV08: 23%;
+	--ACV09: 46%;
+
+	/* Palette Interactive HSL */
+	--ACV10: 281;
+	--ACV11: 67%;
+	--ACV12: 56%;
+
+	/* Background Modifier HSL */
+	--ACV13: 225;
+	--ACV14: 27%;
+	--ACV15: 51%;
 
 	/* Border HSL */
 	--ACV21: 285;

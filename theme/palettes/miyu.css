@@ -1,4 +1,19 @@
 html:root {
+	/* Palette Info */
+
+	--ACV16: 'DesireRK';
+	--ACV17: 'Miyu';
+
+	/* Palette Fonts */
+	--ACV18: 'Montserrat', sans-serif;
+	--ACV19: 'Inter', sans-serif;
+	--ACV20: 'Source Code Pro', monospace;
+
+}
+
+.theme-dark,
+.theme-darker,
+.theme-midnight {
 	/* Palette Background HSL */
 	--ACV01: 245;
 	--ACV02: 17%;
@@ -25,15 +40,38 @@ html:root {
 	--ACV14: 27%;
 	--ACV15: 40%;
 
-	/* Palette Info */
+	/* Border HSL */
+	--ACV21: 285;
+    --ACV22: 10%;
+    --ACV23: 34%;
+}
 
-	--ACV16: 'DesireRK';
-	--ACV17: 'Miyu';
+.theme-light {
+	/* Palette Background HSL */
+	--ACV01: 290;
+	--ACV02: 40%;
+	--ACV03: 84%;
 
-	/* Palette Fonts */
-	--ACV18: 'Montserrat', sans-serif;
-	--ACV19: 'Inter', sans-serif;
-	--ACV20: 'Source Code Pro', monospace;
+	/* Palette Accent HSL */
+	--ACV04: 307;
+	--ACV05: 26%;
+	--ACV06: 55%;
+
+	/* Palette Text HSL */
+
+	--ACV07: 287;
+	--ACV08: 23%;
+	--ACV09: 40%;
+
+	/* Palette Interactive HSL */
+	--ACV10: 281;
+	--ACV11: 87%;
+	--ACV12: 86%;
+
+	/* Background Modifier HSL */
+	--ACV13: 265;
+	--ACV14: 27%;
+	--ACV15: 40%;
 
 	/* Border HSL */
 	--ACV21: 285;

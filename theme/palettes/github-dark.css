@@ -1,0 +1,80 @@
+html:root{
+	/* Palette Info */
+
+	--ACV16: 'Github';
+	--ACV17: 'Github Dark';
+
+	/* Palette Fonts */
+	--ACV18: 'Mona Sans', sans-serif;
+	--ACV19: 'Hubot Sans', sans-serif;
+	--ACV20: 'code font', monospace;
+
+}
+
+.theme-dark,
+.theme-darker,
+.theme-midnight {
+	/* Palette Background HSL */
+	--ACV01: 216;
+	--ACV02: 28%;
+	--ACV03: 9%;
+
+	/* Palette Accent HSL */
+	--ACV04: 216;
+	--ACV05: 84%;
+	--ACV06: 52%;
+
+	/* Palette Text HSL */
+	--ACV07: 208;
+	--ACV08: 35%;
+	--ACV09: 93%;
+
+	/* Palette Interactive HSL */
+	--ACV10: 207;
+	--ACV11: 08%;
+	--ACV12: 73%;
+
+	/* Background Modifier HSL */
+	--ACV13: 212;
+	--ACV14: 100%;
+	--ACV15: 29%;
+
+	/* Border HSL */
+	--ACV21: 215;
+    --ACV22: 12%;
+    --ACV23: 45%;
+}
+
+.theme-light {
+	/* Palette Background HSL */
+	--ACV01: 219;
+	--ACV02: 22%;
+	--ACV03: 85%;
+
+	/* Palette Accent HSL */
+	--ACV04: 216;
+	--ACV05: 84%;
+	--ACV06: 52%;
+
+	/* Palette Text HSL */
+	--ACV07: 208;
+	--ACV08: 35%;
+	--ACV09: 33%;
+
+	/* Palette Interactive HSL */
+	--ACV10: 207;
+	--ACV11: 28%;
+	--ACV12: 43%;
+
+	/* Background Modifier HSL */
+	--ACV13: 212;
+	--ACV14: 100%;
+	--ACV15: 29%;
+
+	/* Palette Info */
+
+	/* Border HSL */
+	--ACV21: 215;
+    --ACV22: 12%;
+    --ACV23: 45%;
+}

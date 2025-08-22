@@ -1,41 +1,77 @@
 html:root {
-	/* Palette Background HSL */
-	--ACV01: 232;
-	--ACV02: 32%;
-	--ACV03: 27%;
+    /* Palette Info */
 
-	/* Palette Accent HSL */
-	--ACV04: 170;
-	--ACV05: 76%;
-	--ACV06: 32%;
+    --ACV16: 'Loremly';
+    --ACV17: 'Comet';
 
-	/* Palette Text HSL */
-	--ACV07: 240;
-	--ACV08: 11%;
-	--ACV09: 92%;
+    /* Palette Fonts */
+    --ACV18: 'Inter', sans-serif;
+    --ACV19: 'Noto Sans', sans-serif;
+    --ACV20: 'Source Code Pro', monospace;
+}
 
-	/* Palette Interactive HSL */
-	--ACV10: 213;
-	--ACV11: 47%;
-	--ACV12: 89%;
+.theme-dark,
+.theme-darker,
+.theme-midnight {
+    /* Palette Background HSL */
+    --ACV01: 232;
+    --ACV02: 32%;
+    --ACV03: 27%;
 
-	/* Background Modifier HSL */
-	--ACV13: 170;
-	--ACV14: 76%;
-	--ACV15: 36%;
+    /* Palette Accent HSL */
+    --ACV04: 170;
+    --ACV05: 76%;
+    --ACV06: 32%;
 
-	/* Palette Info */
+    /* Palette Text HSL */
+    --ACV07: 240;
+    --ACV08: 11%;
+    --ACV09: 92%;
 
-	--ACV16: 'Loremly';
-	--ACV17: 'Comet';
+    /* Palette Interactive HSL */
+    --ACV10: 213;
+    --ACV11: 47%;
+    --ACV12: 89%;
 
-	/* Palette Fonts */
-	--ACV18: 'Inter', sans-serif;
-	--ACV19: 'Noto Sans', sans-serif;
-	--ACV20: 'Source Code Pro', monospace;
+    /* Background Modifier HSL */
+    --ACV13: 170;
+    --ACV14: 76%;
+    --ACV15: 36%;
 
-	/* Border HSL */
-	--ACV21: 218;
+    /* Border HSL */
+    --ACV21: 218;
+    --ACV22: 10%;
+    --ACV23: 36%;
+}
+
+.theme-light {
+    /* Palette Background HSL */
+    --ACV01: 210;
+    --ACV02: 30%;
+    --ACV03: 84%;
+
+    /* Palette Accent HSL */
+    --ACV04: 170;
+    --ACV05: 76%;
+    --ACV06: 32%;
+
+    /* Palette Text HSL */
+    --ACV07: 232;
+    --ACV08: 9%;
+    --ACV09: 29%;
+
+    /* Palette Interactive HSL */
+    --ACV10: 170;
+    --ACV11: 65%;
+    --ACV12: 32%;
+
+    /* Background Modifier HSL */
+    --ACV13: 170;
+    --ACV14: 76%;
+    --ACV15: 36%;
+
+    /* Border HSL */
+    --ACV21: 218;
     --ACV22: 10%;
     --ACV23: 36%;
 }

@@ -1,42 +1,77 @@
-
 html:root {
-	/* Palette Background HSL */
-	--ACV01: 223;
-	--ACV02: 17%;
-	--ACV03: 24%;
+    /* Palette Info */
 
-	/* Palette Accent HSL */
-	--ACV04: 338;
-	--ACV05: 92%;
-	--ACV06: 42%;
+    --ACV16: 'CorellanStoma';
+    --ACV17: 'CreArts';
 
-	/* Palette Text HSL */
-	--ACV07: 180;
-	--ACV08: 5%;
-	--ACV09: 87%;
+    /* Palette Fonts */
+    --ACV18: 'Quicksand', sans-serif;
+    --ACV19: 'Montserrat', sans-serif;
+    --ACV20: 'Consolas', monospace;
+}
 
-	/* Palette Interactive HSL */
-	--ACV10: 90;
-	--ACV11: 3%;
-	--ACV12: 87%;
+.theme-dark,
+.theme-darker,
+.theme-midnight {
+    /* Palette Background HSL */
+    --ACV01: 223;
+    --ACV02: 17%;
+    --ACV03: 24%;
 
-	/* Background Modifier HSL */
-	--ACV13: 338;
-	--ACV14: 82%;
-	--ACV15: 38%;
+    /* Palette Accent HSL */
+    --ACV04: 338;
+    --ACV05: 92%;
+    --ACV06: 42%;
 
-	/* Palette Info */
+    /* Palette Text HSL */
+    --ACV07: 180;
+    --ACV08: 5%;
+    --ACV09: 87%;
 
-	--ACV16: 'CorellanStoma';
-	--ACV17: 'CreArts';
+    /* Palette Interactive HSL */
+    --ACV10: 90;
+    --ACV11: 3%;
+    --ACV12: 87%;
 
-	/* Palette Fonts */
-	--ACV18: 'Quicksand', sans-serif;
-	--ACV19: 'Montserrat', sans-serif;
-	--ACV20: 'Consolas', monospace;
+    /* Background Modifier HSL */
+    --ACV13: 338;
+    --ACV14: 82%;
+    --ACV15: 38%;
 
-	/* Border HSL */
-	--ACV21: 227;
+    /* Border HSL */
+    --ACV21: 227;
+    --ACV22: 19%;
+    --ACV23: 39%;
+}
+
+.theme-light {
+    /* Palette Background HSL */
+    --ACV01: 238;
+    --ACV02: 48%;
+    --ACV03: 96%;
+
+    /* Palette Accent HSL */
+    --ACV04: 338;
+    --ACV05: 92%;
+    --ACV06: 62%;
+
+    /* Palette Text HSL */
+    --ACV07: 180;
+    --ACV08: 5%;
+    --ACV09: 37%;
+
+    /* Palette Interactive HSL */
+    --ACV10: 90;
+    --ACV11: 3%;
+    --ACV12: 37%;
+
+    /* Background Modifier HSL */
+    --ACV13: 338;
+    --ACV14: 82%;
+    --ACV15: 38%;
+
+    /* Border HSL */
+    --ACV21: 227;
     --ACV22: 19%;
     --ACV23: 39%;
 }

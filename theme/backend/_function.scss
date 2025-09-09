@@ -1,6 +1,6 @@
 @use 'map' as *;
 
-@mixin ac-hslvar-func($map, $var, $h-base, $s-base, $l-base, $saturation: null) {
+@mixin ac-hslvar-func($map, $var, $h-base, $s-base, $l-base, $a-base, $saturation: null) {
 	@each $id, $calc in $map {
 		// maps in map.scss
 
@@ -9,15 +9,14 @@
 		$s-calc: nth($calc, 2); // second value
 
 		$l-calc: nth($calc, 3); // third value
-
-		$o: nth($calc, 4); // fourth opacity value (usually always 1)
+        
 
 		@if $saturation {
 			// If saturation, add saturation factor
             --#{$var}-#{$id}: hsla(calc(#{$h-base} #{$h-calc}),
                 calc(calc(#{$s-base} #{$s-calc}) * var(--saturation-factor, 1)),
                 calc(#{$l-base} #{$l-calc}),
-                #{$o}) !important;
+                #{$a-base}) !important;
 		}
 
 		@else {
@@ -25,7 +24,7 @@
 			--#{$var}-#{$id}: hsla(calc(#{$h-base} #{$h-calc}),
 				calc(#{$s-base} #{$s-calc}),
 				calc(#{$l-base} #{$l-calc}),
-				#{$o}) !important;
+				#{$a-base}) !important;
 		}
 	}
 }
@@ -34,16 +33,14 @@
 .theme-light,
 .images-light,
 .theme-light {
-    @include ac-hslvar-func($ACBG-LIGHT, 'background', var(--ACV01), var(--ACV02), var(--ACV03));
+    @include ac-hslvar-func($ACBG-LIGHT, 'background', var(--ACV01), var(--ACV02), var(--ACV03), var(--ACV-A1));
 
-    @include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), saturation);
-    @include ac-hslvar-func($ACT, 'text', var(--ACV07), var(--ACV08), var(--ACV09), saturation);
-    @include ac-hslvar-func($ACBM, 'background-modifier', var(--ACV13), var(--ACV14), var(--ACV15), saturation);
-    @include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
-    @include ac-hslvar-func($ACA, 'accent', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
-    @include ac-hslvar-func($ACBP, 'blurple', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
-    @include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), saturation);
-    @include ac-hslvar-func($ACICON, 'icon', var(--ACV10), var(--ACV11), var(--ACV12), saturation);
+    @include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACV-A4), saturation);
+    @include ac-hslvar-func($ACT, 'text', var(--ACV07), var(--ACV08), var(--ACV09), var(--ACV-A3),saturation);
+    @include ac-hslvar-func($ACBM, 'background-modifier', var(--ACV13), var(--ACV14), var(--ACV15), var(--ACV-A5),saturation);
+    @include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), var(--ACV-A2),saturation);
+    @include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), var(--ACV-A6),saturation);
+    @include ac-hslvar-func($ACICON, 'icon', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACV-A4),saturation);
 
 }
 
@@ -58,16 +55,14 @@
 .theme-dark,
 .theme-darker,
 .theme-midnight {
-		@include ac-hslvar-func($ACBG-DARK, 'background', var(--ACV01), var(--ACV02), var(--ACV03));
+	@include ac-hslvar-func($ACBG-DARK, 'background', var(--ACV01), var(--ACV02), var(--ACV03), var(--ACV-A1));
 
-        @include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), saturation);
-		@include ac-hslvar-func($ACT, 'text', var(--ACV07), var(--ACV08), var(--ACV09), saturation);
-		@include ac-hslvar-func($ACBM, 'background-modifier', var(--ACV13), var(--ACV14), var(--ACV15), saturation);
-		@include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
-		@include ac-hslvar-func($ACA, 'accent', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
-		@include ac-hslvar-func($ACBP, 'blurple', var(--ACV04), var(--ACV05), var(--ACV06), saturation);
-		@include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), saturation);
-        @include ac-hslvar-func($ACICON, 'icon', var(--ACV10), var(--ACV11), var(--ACV12), saturation);
+    @include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACV-A4), saturation);
+    @include ac-hslvar-func($ACT, 'text', var(--ACV07), var(--ACV08), var(--ACV09), var(--ACV-A3),saturation);
+    @include ac-hslvar-func($ACBM, 'background-modifier', var(--ACV13), var(--ACV14), var(--ACV15), var(--ACV-A5),saturation);
+    @include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), var(--ACV-A2),saturation);
+    @include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), var(--ACV-A6),saturation);
+    @include ac-hslvar-func($ACICON, 'icon', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACV-A4),saturation);
 }
 
 
@@ -75,10 +70,8 @@
 
 :root {
     --saturation-factor: 1;
-    --icon-primary: var(--interactive-normal) !important;
-    --icon-secondary: var(--interactive-hover) !important;
+
     --icon-muted: var(--interactive-disabled) !important;
-    --icon-tertiary: var(--interactive-disabled) !important;
 
     --ac-border-accent: hsla(var(--ACV04), calc(var(--saturation-factor, 1) * var(--ACV05)), var(--ACV06), .25) !important;
     --border-strong: var(--ac-border-secondary-alt) !important;
@@ -101,11 +94,11 @@
     --mention-foreground: var(--brand-900) !important;
 
 
-    --status-active: placeholder;
-    --status-dnd: placeholder;
-    --status-invisible: placeholder;
-    --status-streaming: placeholder;
-    --status-idle: placeholder;
+    --status-active: var(--green-primary);
+    --status-dnd: var(--red-primary);
+    --status-invisible: var(--color-gray-600);
+    --status-streaming: var(--purple-secondary);
+    --status-idle: var(--yellow-secondary);
 
     --message-background: var(--background-primary);
     --message-background-hover: var(--background-tertiary);

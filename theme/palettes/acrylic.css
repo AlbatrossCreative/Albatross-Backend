@@ -1,0 +1,67 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans&family=Hubot+Sans&family=Source+Code+Pro&display=swap');
+
+html{
+	.blur {
+		-webkit-backdrop-filter: blur(10px);
+		backdrop-filter: blur(10px);
+	}
+	&:root {
+		/* Palette Info */
+		--ACV16: 'Lorem';
+		--ACV17: 'Acrylic';
+
+		/* Palette Fonts */
+		--ACV18: 'Mona sans', sans-serif;
+		--ACV19: 'Hubot sans', sans-serif;
+		--ACV20: 'source code pro', monospace;
+	}
+	body{
+		background: var(--background-base-lowest) !important;
+		.tutorialContainer__1f388{
+			background: transparent !important;
+		}
+	}
+}
+
+.theme-dark,
+.theme-darker,
+.theme-midnight,
+.theme-light {
+	/* Palette Background HSL */
+	---test-variable: hsla(0, 0%, 0%, 0.5);
+	--ACV01: 000;
+	--ACV02: 00%;
+	--ACV03: 10%;
+	--ACV-A1: .10;
+
+	/* Palette Accent HSL */
+	--ACV04: 209;
+	--ACV05: 57%;
+	--ACV06: 40%;
+	--ACV-A2: 1;
+
+	/* Palette Text HSL */
+	--ACV07: 240;
+	--ACV08: 40%;
+	--ACV09: 100%;
+	--ACV-A3: .6;
+
+	/* Palette Interactive HSL */
+	--ACV10: 240;
+	--ACV11: 60%;
+	--ACV12: 90%;
+	--ACV-A4: 1;
+
+	/* Background Modifier HSL */
+	--ACV13: 240;
+	--ACV14: 50%;
+	--ACV15: 45%;
+	--ACV-A5: .29;
+
+	/* Border HSL */
+	--ACV21: 240;
+    --ACV22: 5%;
+    --ACV23: 60%;
+	--ACV-A6: .32;
+}

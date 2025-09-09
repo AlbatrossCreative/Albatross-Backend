@@ -1,27 +1,45 @@
-# Albatross Backend 1.4.2
+# Albatross Backend 1.5.3
+![alt text](public/heroHeader.png)
 
-this backend repository maintains all of Albataross' theme variables used on our [Discord theme](https://github.com/albatrosscreative/albatross-discord), and other projects.
+this backend repository maintains Albatross' Theme variables and website(soon).
 
-- [Albatross Backend 1.4.2](#albatross-backend-142)
-  - [Features](#features)
-  - [Recent Update](#recent-update)
-    - [Albatross Backend 1.4.2](#albatross-backend-142-1)
+**Note: Palettes still being tinkered on.**
+
+## Table of contents
+- [Albatross Backend 1.5.3](#albatross-backend-153)
+  - [Table of contents](#table-of-contents)
+  - [Backend theme Features](#backend-theme-features)
+  - [Changelog](#changelog)
+    - [Albatross Backend 1.5.3](#albatross-backend-153-1)
       - [Added](#added)
+      - [Removed](#removed)
+    - [Albatross Backend 1.4.2](#albatross-backend-142)
+      - [Added](#added-1)
       - [Fixed](#fixed)
   - [License](#license)
 
 
 
-## Features
+## Backend theme Features
 - multiple customizable palettes
-- light mode support
+- partial light mode support
 - discord variable replacement
 - font replacement
 - added variables for development
 - added icons for development
 
-## Recent Update
+## Changelog
 All past changes to this project will be documented in the [changelog](/changelog.md) page.
+
+### Albatross Backend 1.5.3
+Mica blur compatibility update
+
+#### Added
+- Added Acrylic Palette
+- Added alpha/opacity variables for window transparency compatibility through all themes.
+
+#### Removed
+- Removed unnecessary variables for performance.
 
 ### Albatross Backend 1.4.2 
 Major backend overhaul, all palettes now support both light and dark mode brings more possibilities to what you can create.

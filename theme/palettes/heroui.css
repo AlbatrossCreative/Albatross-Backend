@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&family=Fira+Code&display=swap');
+
 html:root {
 	/* Palette Info */
 
@@ -18,31 +20,37 @@ html:root {
 	--ACV01: 240;
 	--ACV02: 6%;
 	--ACV03: 14%;
+	--ACV-01: 1;
 
 	/* Albatross Accent HSL */
 	--ACV04: 212;
 	--ACV05: 76%;
 	--ACV06: 38%;
+	--ACV-02: 1;
 
 	/* Albatross Text HSL */
 	--ACV07: 227;
 	--ACV08: 50%;
 	--ACV09: 95%;
+	--ACV-03: 1;
 
 	/* Albatross Interactive HSL */
 	--ACV10: 226;
 	--ACV11: 76%;
 	--ACV12: 96%;
+	--ACV-04: 1;
 
 	/* Background Modifier HSL */
 	--ACV13: 212;
 	--ACV14: 76%;
 	--ACV15: 29%;
+	--ACV-05: 1;
 
 	/* Border HSL */
 	--ACV21: 225;
     --ACV22: 7%;
     --ACV23: 31%;
+	--ACV-06: 1;
 }
 
 
@@ -51,29 +59,35 @@ html:root {
 	--ACV01: 240;
 	--ACV02: 26%;
 	--ACV03: 84%;
+	--ACV-01: 1;
 
 	/* Albatross Accent HSL */
 	--ACV04: 212;
 	--ACV05: 70%;
 	--ACV06: 65%;
+	--ACV-02: 1;
 
 	/* Albatross Text HSL */
 	--ACV07: 227;
 	--ACV08: 50%;
 	--ACV09: 25%;
+	--ACV-03: 1;
 
 	/* Albatross Interactive HSL */
 	--ACV10: 226;
 	--ACV11: 66%;
 	--ACV12: 46%;
+	--ACV-04: 1;
 
 	/* Background Modifier HSL */
 	--ACV13: 212;
 	--ACV14: 76%;
 	--ACV15: 59%;
+	--ACV-05: 1;
 
 	/* Border HSL */
 	--ACV21: 225;
     --ACV22: 7%;
     --ACV23: 31%;
+	--ACV-06: 1;
 }

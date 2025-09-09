@@ -1,3 +1,7 @@
 /node_modules
 /theme/debug.scss
 theme/debug.scss
+.env
+/src
+.astro
+.next/

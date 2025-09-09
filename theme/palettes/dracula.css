@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=JetBrains+Mono&display=swap');
+
 html:root{
 	/* Palette Info */
 
@@ -5,8 +8,8 @@ html:root{
 	--ACV17: 'Dracula';
 
 	/* Palette Fonts */
-	--ACV18: 'Satoshi', sans-serif;
-	--ACV19: 'Satoshi', sans-serif;
+	--ACV18: 'Open sans', sans-serif;
+	--ACV19: 'Open sans', sans-serif;
 	--ACV20: 'JetBrains Mono', monospace;
 
 }
@@ -18,31 +21,37 @@ html:root{
 	--ACV01: 231;
 	--ACV02: 15%;
 	--ACV03: 18%;
+	--ACV-01: 1;
 
 	/* Palette Accent HSL */
 	--ACV04: 265;
 	--ACV05: 89%;
 	--ACV06: 78%;
+	--ACV-02: 1;
 
 	/* Palette Text HSL */
 	--ACV07: 274;
 	--ACV08: 30%;
 	--ACV09: 96%;
+	--ACV-03: 1;
 
 	/* Palette Interactive HSL */
 	--ACV10: 281;
 	--ACV11: 40%;
 	--ACV12: 36%;
+	--ACV-04: 1;
 
 	/* Background Modifier HSL */
 	--ACV13: 225;
 	--ACV14: 27%;
 	--ACV15: 51%;
+	--ACV-05: 1;
 
 	/* Border HSL */
 	--ACV21: 285;
     --ACV22: 10%;
     --ACV23: 40%;
+	--ACV-06: 1;
 }
 
 
@@ -51,29 +60,35 @@ html:root{
 	--ACV01: 265;
 	--ACV02: 44%;
 	--ACV03: 86%;
+	--ACV-01: 1;
 
 	/* Palette Accent HSL */
 	--ACV04: 253;
 	--ACV05: 59%;
 	--ACV06: 48%;
+	--ACV-02: 1;
 
 	/* Palette Text HSL */
 	--ACV07: 274;
 	--ACV08: 23%;
 	--ACV09: 46%;
+	--ACV-03: 1;
 
 	/* Palette Interactive HSL */
 	--ACV10: 281;
 	--ACV11: 67%;
 	--ACV12: 56%;
+	--ACV-04: 1;
 
 	/* Background Modifier HSL */
 	--ACV13: 225;
 	--ACV14: 27%;
 	--ACV15: 51%;
+	--ACV-05: 1;
 
 	/* Border HSL */
 	--ACV21: 285;
     --ACV22: 10%;
     --ACV23: 40%;
+	--ACV-06: 1;
 }

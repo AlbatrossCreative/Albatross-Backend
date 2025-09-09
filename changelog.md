@@ -21,15 +21,31 @@ Official Release of Albatross Backend
 - Fixed Icon and message variables
 
 
-## [v.1.4.1] - 2025-06-25
+## [v1.4.1] - 2025-06-25
 
 ### Fixed
-
 - Fixed text variable
 
 
-## [v1.4.2] - 2025-06-28
+### Added
+- Added border variables
+
+## [v1.4.2] - 2025-06-25
+Major backend overhaul, all palettes now support both light and dark mode brings more possibilities to what you can create.
+
+### Added
+- Added simultaneous support for light and dark mode. (Ash and midnight theme will be released in future updates)
 
 ### Fixed
+- Fixed variables not automatically overriding in discord.
+- Fixed saturation factor bugs
 
-- Fixed backend core variables
+## [v1.5.2] 2025-08-22
+Mica blur compatibility update
+
+### Added
+- Added Acrylic Palette
+- Added alpha/opacity variables for window transparency compatibility through all themes.
+
+### Removed
+- Removed unnecessary variables for performance.

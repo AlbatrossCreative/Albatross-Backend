@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubot+Sans&family=Mona+Sans&display=swap");
+
 html:root {
 	/* Palette Info */
 
@@ -18,31 +20,37 @@ html:root {
 	--ACV01: 215;
 	--ACV02: 14%;
 	--ACV03: 16%;
+	--ACV-01: 1;
 
 	/* Palette Accent HSL */
 	--ACV04: 216;
 	--ACV05: 60%;
 	--ACV06: 49%;
+	--ACV-02: 1;
 
 	/* Palette Text HSL */
 	--ACV07: 210;
 	--ACV08: 19%;
 	--ACV09: 73%;
+	--ACV-03: 1;
 
 	/* Palette Interactive HSL */
 	--ACV10: 208;
 	--ACV11: 8%;
 	--ACV12: 54%;
+	--ACV-04: 1;
 
 	/* Background Modifier HSL */
 	--ACV13: 225;
 	--ACV14: 27%;
 	--ACV15: 65%;
+	--ACV-05: 1;
 
 	/* Border HSL */
 	--ACV21: 212;
     --ACV22: 12%;
     --ACV23: 60%;
+	--ACV-06: 1;
 }
 
 .theme-light {
@@ -50,29 +58,35 @@ html:root {
 	--ACV01: 215;
 	--ACV02: 14%;
 	--ACV03: 86%;
+	--ACV-01: 1;
 
 	/* Palette Accent HSL */
 	--ACV04: 216;
 	--ACV05: 60%;
 	--ACV06: 49%;
+	--ACV-02: 1;
 
 	/* Palette Text HSL */
 	--ACV07: 210;
 	--ACV08: 19%;
 	--ACV09: 27%;
+	--ACV-03: 1;
 
 	/* Palette Interactive HSL */
 	--ACV10: 208;
 	--ACV11: 8%;
 	--ACV12: 54%;
+	--ACV-04: 1;
 
 	/* Background Modifier HSL */
 	--ACV13: 225;
 	--ACV14: 27%;
 	--ACV15: 65%;
+	--ACV-05: 1;
 
 	/* Border HSL */
 	--ACV21: 212;
     --ACV22: 12%;
     --ACV23: 40%;
+	--ACV-06: 1;
 }

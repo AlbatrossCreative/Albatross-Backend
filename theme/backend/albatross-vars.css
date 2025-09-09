@@ -1,6 +1,6 @@
 html:root {
   --ACV-COMMIT: "330d759";
-  --ACB-VERSION: "1.5.3";
+  --ACB-VERSION: "1.5.4";
 }
 
 .theme-light,
@@ -11,331 +11,331 @@ html:root {
   --background-primary: hsla(calc(var(--ACV01)  + 0),
   	calc(var(--ACV02)  + 0%),
   	calc(var(--ACV03)  + 0%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-secondary: hsla(calc(var(--ACV01)  - 7),
   	calc(var(--ACV02)  + 6%),
   	calc(var(--ACV03)  - 6%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-secondary-alt: hsla(calc(var(--ACV01)  - 2),
   	calc(var(--ACV02)  + 5%),
   	calc(var(--ACV03)  + 0%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-tertiary: hsla(calc(var(--ACV01)  - 2),
   	calc(var(--ACV02)  - 0%),
   	calc(var(--ACV03)  - 12%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-floating: hsla(calc(var(--ACV01)  - 2),
   	calc(var(--ACV02)  + 5%),
   	calc(var(--ACV03)  - 12%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-surface-high: hsla(calc(var(--ACV01)  + 2),
   	calc(var(--ACV02)  + 4%),
   	calc(var(--ACV03)  - 3%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-surface-higher: hsla(calc(var(--ACV01)  + 1),
   	calc(var(--ACV02)  + 3%),
   	calc(var(--ACV03)  - 7%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-surface-highest: hsla(calc(var(--ACV01)  + 0),
   	calc(var(--ACV02)  + 5%),
   	calc(var(--ACV03)  - 9%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-base-low: hsla(calc(var(--ACV01)  + 0),
   	calc(var(--ACV02)  + 0%),
   	calc(var(--ACV03)  + 0%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-base-lower: hsla(calc(var(--ACV01)  - 1),
   	calc(var(--ACV02)  + 2%),
   	calc(var(--ACV03)  - 4%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-base-lowest: hsla(calc(var(--ACV01)  - 2),
   	calc(var(--ACV02)  + 6%),
   	calc(var(--ACV03)  - 11%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --interactive-normal: hsla(calc(var(--ACV10)  + 0),
       calc(calc(var(--ACV11)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  + 0%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --interactive-hover: hsla(calc(var(--ACV10)  - 1),
       calc(calc(var(--ACV11)  + 2%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  - 19%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --interactive-active: hsla(calc(var(--ACV10)  - 2),
       calc(calc(var(--ACV11)  + 5%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  + 7%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --interactive-disabled: hsla(calc(var(--ACV10)  - 2),
       calc(calc(var(--ACV11)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  - 29%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --interactive-muted: hsla(calc(var(--ACV10)  - 2),
       calc(calc(var(--ACV11)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  - 22%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --text-normal: hsla(calc(var(--ACV07)  + 0),
       calc(calc(var(--ACV08)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  + 0%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-primary: hsla(calc(var(--ACV07)  + 0),
       calc(calc(var(--ACV08)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  + 0%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-secondary: hsla(calc(var(--ACV07)  - 1),
       calc(calc(var(--ACV08)  + 2%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  - 4%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-active: hsla(calc(var(--ACV07)  - 2),
       calc(calc(var(--ACV08)  + 5%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  + 8%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-muted: hsla(calc(var(--ACV07)  - 2),
       calc(calc(var(--ACV08)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  - 11%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-tertiary: hsla(calc(var(--ACV07)  - 2),
       calc(calc(var(--ACV08)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  - 11%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-header: hsla(calc(var(--ACV07)  - 2),
       calc(calc(var(--ACV08)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  + 12%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --background-modifier-hover: hsla(calc(var(--ACV13)  + 1),
       calc(calc(var(--ACV14)  - 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV15)  - 12%),
-      var(--ACV-A5)) !important;
+      var(--ACVA5)) !important;
   --background-modifier-selected: hsla(calc(var(--ACV13)  - 0),
       calc(calc(var(--ACV14)  + 4%) * var(--saturation-factor, 1)),
       calc(var(--ACV15)  - 8%),
-      var(--ACV-A5)) !important;
+      var(--ACVA5)) !important;
   --background-modifier-active: hsla(calc(var(--ACV13)  - 0),
       calc(calc(var(--ACV14)  - 9%) * var(--saturation-factor, 1)),
       calc(var(--ACV15)  + 4%),
-      var(--ACV-A5)) !important;
+      var(--ACVA5)) !important;
   --background-modifier-accent: hsla(calc(var(--ACV13)  - 0),
       calc(calc(var(--ACV14)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV15)  - 0%),
-      var(--ACV-A5)) !important;
+      var(--ACVA5)) !important;
   --brand-05a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  -40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-10a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  -32%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-15a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  -24%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-20a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  -16%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-25a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  -8%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-30a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  0%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-35a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +8%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-40a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +16%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-45a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +24%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-50a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +32%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-55a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-60a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-65a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-70a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-75a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-80a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-85a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-90a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-95a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-100a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-100: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  - 11%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 25%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-130: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 13%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 23%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-160: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  - 13%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 22%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-200: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 12%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 22%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-230: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 10%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 20%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-260: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  - 07%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 19%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-300: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  - 06%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 15%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-330: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 04%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 12%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-360: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 4%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 11%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-400: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 2%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 10%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-430: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  - 1%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 08%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-460: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 05%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-500: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 00%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-530: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 4%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 6%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-560: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 12%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 13%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-600: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 17%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 16%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-630: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 18%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 18%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-660: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 22%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 22%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-700: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 30%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 24%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-730: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 34%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 26%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-760: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 40%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 28%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-800: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 45%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 30%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-830: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 51%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 33%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-860: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 66%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 35%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-900: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 75%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 42%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --ac-border-primary: hsla(calc(var(--ACV21)  - 0),
       calc(calc(var(--ACV22)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  - 0%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-secondary: hsla(calc(var(--ACV21)  - 0),
       calc(calc(var(--ACV22)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  - 20%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-secondary-alt: hsla(calc(var(--ACV21) - 0),
       calc(calc(var(--ACV22)  + 13%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  + 9%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-tertiary: hsla(calc(var(--ACV21)  - 0),
       calc(calc(var(--ACV22)  - 10%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  - 33%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-active: hsla(calc(var(--ACV21)  - 10),
       calc(calc(var(--ACV22)  + 15%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  + 19%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-subtle: hsla(calc(var(--ACV21) - 0),
       calc(calc(var(--ACV22)  + 14%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  - 6%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-strong: hsla(calc(var(--ACV21)  - 0),
       calc(calc(var(--ACV22)  + 22%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  - 12%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --icon-primary: hsla(calc(var(--ACV10)  + 0),
       calc(calc(var(--ACV11)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  + 0%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --icon-secondary: hsla(calc(var(--ACV10)  - 1),
       calc(calc(var(--ACV11)  + 2%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  - 5%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --icon-tertiary: hsla(calc(var(--ACV10)  - 0),
       calc(calc(var(--ACV11)  - 12%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  - 9%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
 }
 
 .theme-dark,
@@ -352,331 +352,331 @@ html:root {
   --background-primary: hsla(calc(var(--ACV01)  + 0),
   	calc(var(--ACV02)  + 0%),
   	calc(var(--ACV03)  + 0%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-secondary: hsla(calc(var(--ACV01)  - 1),
   	calc(var(--ACV02)  + 2%),
   	calc(var(--ACV03)  - 4%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-secondary-alt: hsla(calc(var(--ACV01)  - 2),
   	calc(var(--ACV02)  + 5%),
   	calc(var(--ACV03)  + 7%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-tertiary: hsla(calc(var(--ACV01)  - 2),
   	calc(var(--ACV02)  + 6%),
   	calc(var(--ACV03)  - 11%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-floating: hsla(calc(var(--ACV01)  - 2),
   	calc(var(--ACV02)  + 5%),
   	calc(var(--ACV03)  - 8%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-surface-high: hsla(calc(var(--ACV01)  + 2),
   	calc(var(--ACV02)  + 4%),
   	calc(var(--ACV03)  - 3%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-surface-higher: hsla(calc(var(--ACV01)  + 1),
   	calc(var(--ACV02)  + 3%),
   	calc(var(--ACV03)  - 7%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-surface-highest: hsla(calc(var(--ACV01)  + 0),
   	calc(var(--ACV02)  + 5%),
   	calc(var(--ACV03)  - 9%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-base-low: hsla(calc(var(--ACV01)  + 0),
   	calc(var(--ACV02)  + 0%),
   	calc(var(--ACV03)  + 0%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-base-lower: hsla(calc(var(--ACV01)  - 1),
   	calc(var(--ACV02)  + 2%),
   	calc(var(--ACV03)  - 4%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --background-base-lowest: hsla(calc(var(--ACV01)  - 2),
   	calc(var(--ACV02)  + 6%),
   	calc(var(--ACV03)  - 11%),
-  	var(--ACV-A1)) !important;
+  	var(--ACVA1)) !important;
   --interactive-normal: hsla(calc(var(--ACV10)  + 0),
       calc(calc(var(--ACV11)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  + 0%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --interactive-hover: hsla(calc(var(--ACV10)  - 1),
       calc(calc(var(--ACV11)  + 2%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  - 19%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --interactive-active: hsla(calc(var(--ACV10)  - 2),
       calc(calc(var(--ACV11)  + 5%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  + 7%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --interactive-disabled: hsla(calc(var(--ACV10)  - 2),
       calc(calc(var(--ACV11)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  - 29%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --interactive-muted: hsla(calc(var(--ACV10)  - 2),
       calc(calc(var(--ACV11)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  - 22%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --text-normal: hsla(calc(var(--ACV07)  + 0),
       calc(calc(var(--ACV08)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  + 0%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-primary: hsla(calc(var(--ACV07)  + 0),
       calc(calc(var(--ACV08)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  + 0%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-secondary: hsla(calc(var(--ACV07)  - 1),
       calc(calc(var(--ACV08)  + 2%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  - 4%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-active: hsla(calc(var(--ACV07)  - 2),
       calc(calc(var(--ACV08)  + 5%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  + 8%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-muted: hsla(calc(var(--ACV07)  - 2),
       calc(calc(var(--ACV08)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  - 11%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-tertiary: hsla(calc(var(--ACV07)  - 2),
       calc(calc(var(--ACV08)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  - 11%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --text-header: hsla(calc(var(--ACV07)  - 2),
       calc(calc(var(--ACV08)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV09)  + 12%),
-      var(--ACV-A3)) !important;
+      var(--ACVA3)) !important;
   --background-modifier-hover: hsla(calc(var(--ACV13)  + 1),
       calc(calc(var(--ACV14)  - 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV15)  - 12%),
-      var(--ACV-A5)) !important;
+      var(--ACVA5)) !important;
   --background-modifier-selected: hsla(calc(var(--ACV13)  - 0),
       calc(calc(var(--ACV14)  + 4%) * var(--saturation-factor, 1)),
       calc(var(--ACV15)  - 8%),
-      var(--ACV-A5)) !important;
+      var(--ACVA5)) !important;
   --background-modifier-active: hsla(calc(var(--ACV13)  - 0),
       calc(calc(var(--ACV14)  - 9%) * var(--saturation-factor, 1)),
       calc(var(--ACV15)  + 4%),
-      var(--ACV-A5)) !important;
+      var(--ACVA5)) !important;
   --background-modifier-accent: hsla(calc(var(--ACV13)  - 0),
       calc(calc(var(--ACV14)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV15)  - 0%),
-      var(--ACV-A5)) !important;
+      var(--ACVA5)) !important;
   --brand-05a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  -40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-10a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  -32%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-15a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  -24%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-20a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  -16%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-25a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  -8%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-30a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  0%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-35a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +8%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-40a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +16%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-45a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +24%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-50a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +32%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-55a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-60a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-65a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-70a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-75a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-80a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-85a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-90a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-95a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-100a: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  +40%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-100: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  - 11%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 25%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-130: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 13%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 23%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-160: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  - 13%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 22%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-200: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 12%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 22%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-230: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 10%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 20%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-260: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  - 07%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 19%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-300: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  - 06%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 15%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-330: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 04%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 12%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-360: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 4%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 11%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-400: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 2%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 10%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-430: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  - 1%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 08%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-460: hsla(calc(var(--ACV04)  - 1),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 05%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-500: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  - 00%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-530: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 4%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 6%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-560: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 12%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 13%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-600: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 17%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 16%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-630: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 18%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 18%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-660: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 22%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 22%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-700: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 30%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 24%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-730: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 34%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 26%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-760: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 40%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 28%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-800: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 45%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 30%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-830: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 51%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 33%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-860: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  - 66%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 35%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --brand-900: hsla(calc(var(--ACV04)  - 0),
       calc(calc(var(--ACV05)  + 75%) * var(--saturation-factor, 1)),
       calc(var(--ACV06)  + 42%),
-      var(--ACV-A2)) !important;
+      var(--ACVA2)) !important;
   --ac-border-primary: hsla(calc(var(--ACV21)  - 0),
       calc(calc(var(--ACV22)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  - 0%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-secondary: hsla(calc(var(--ACV21)  - 0),
       calc(calc(var(--ACV22)  + 6%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  - 20%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-secondary-alt: hsla(calc(var(--ACV21) - 0),
       calc(calc(var(--ACV22)  + 13%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  + 9%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-tertiary: hsla(calc(var(--ACV21)  - 0),
       calc(calc(var(--ACV22)  - 10%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  - 33%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-active: hsla(calc(var(--ACV21)  - 10),
       calc(calc(var(--ACV22)  + 15%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  + 19%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-subtle: hsla(calc(var(--ACV21) - 0),
       calc(calc(var(--ACV22)  + 14%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  - 6%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --ac-border-strong: hsla(calc(var(--ACV21)  - 0),
       calc(calc(var(--ACV22)  + 22%) * var(--saturation-factor, 1)),
       calc(var(--ACV23)  - 12%),
-      var(--ACV-A6)) !important;
+      var(--ACVA6)) !important;
   --icon-primary: hsla(calc(var(--ACV10)  + 0),
       calc(calc(var(--ACV11)  + 0%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  + 0%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --icon-secondary: hsla(calc(var(--ACV10)  - 1),
       calc(calc(var(--ACV11)  + 2%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  - 5%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
   --icon-tertiary: hsla(calc(var(--ACV10)  - 0),
       calc(calc(var(--ACV11)  - 12%) * var(--saturation-factor, 1)),
       calc(var(--ACV12)  - 9%),
-      var(--ACV-A4)) !important;
+      var(--ACVA4)) !important;
 }
 
 :root {

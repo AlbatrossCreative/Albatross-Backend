@@ -1,6 +1,6 @@
 {
   "name": "albatross-backend",
-  "version": "1.4.3",
+  "version": "1.5.4",
   "private": true,
   "scripts": {
     "update-version": "node scripts/update-version.js",

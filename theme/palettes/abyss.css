@@ -21,37 +21,37 @@ html:root {
     --ACV01: 245;
     --ACV02: 66%;
     --ACV03: 15%;
-    --ACV-01: 1;
+    --ACVA1: 1;
 
     /* Palette Accent HSL */
     --ACV04: 228;
     --ACV05: 100%;
     --ACV06: 55%;
-    --ACV-02: 1;
+    --ACVA2: 1;
 
     /* Palette Text HSL */
     --ACV07: 287;
     --ACV08: 100%;
     --ACV09: 99%;
-    --ACV-03: 1;
+    --ACVA3: 1;
 
     /* Palette Interactive HSL */
     --ACV10: 281;
     --ACV11: 100%;
     --ACV12: 96%;
-    --ACV-04: 1;
+    --ACVA4: 1;
 
     /* Background Modifier HSL */
     --ACV13: 000;
     --ACV14: 00%;
     --ACV15: 00%;
-    --ACV-05: 1;
+    --ACVA5: 1;
 
     /* Border HSL */
     --ACV21: 255;
     --ACV22: 100%;
     --ACV23: 76%;
-    --ACV-06: 1;
+    --ACVA6: 1;
 }
 
 .theme-light {
@@ -59,35 +59,35 @@ html:root {
     --ACV01: 245;
     --ACV02: 36%;
     --ACV03: 82%;
-    --ACV-01: 1;
+    --ACVA1: 1;
 
     /* Palette Accent HSL */
     --ACV04: 257;
     --ACV05: 90%;
     --ACV06: 55%;
-    --ACV-02: 1;
+    --ACVA2: 1;
 
     /* Palette Text HSL */
     --ACV07: 277;
     --ACV08: 40%;
     --ACV09: 30%;
-    --ACV-03: 1;
+    --ACVA3: 1;
 
     /* Palette Interactive HSL */
     --ACV10: 281;
     --ACV11: 35%;
     --ACV12: 53%;
-    --ACV-04: 1;
+    --ACVA4: 1;
 
     /* Background Modifier HSL */
     --ACV13: 245;
     --ACV14: 41%;
     --ACV15: 29%;
-    --ACV-05: 1;
+    --ACVA5: 1;
 
     /* Border HSL */
     --ACV21: 255;
     --ACV22: 100%;
     --ACV23: 76%;
-    --ACV-06: 1;
+    --ACVA6: 1;
 }

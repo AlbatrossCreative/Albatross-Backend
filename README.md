@@ -1,4 +1,4 @@
-# Albatross Backend 1.5.3
+# Albatross Backend 1.5.4
 ![alt text](public/heroHeader.png)
 
 this backend repository maintains Albatross' Theme variables and website(soon).
@@ -6,11 +6,12 @@ this backend repository maintains Albatross' Theme variables and website(soon).
 **Note: Palettes still being tinkered on.**
 
 ## Table of contents
-- [Albatross Backend 1.5.3](#albatross-backend-153)
+- [Albatross Backend 1.5.4](#albatross-backend-154)
   - [Table of contents](#table-of-contents)
   - [Backend theme Features](#backend-theme-features)
   - [Changelog](#changelog)
-    - [Albatross Backend 1.5.3](#albatross-backend-153-1)
+    - [Albatross Backend 1.5.4](#albatross-backend-154-1)
+    - [Albatross Backend 1.5.3](#albatross-backend-153)
       - [Added](#added)
       - [Removed](#removed)
     - [Albatross Backend 1.4.2](#albatross-backend-142)
@@ -30,6 +31,9 @@ this backend repository maintains Albatross' Theme variables and website(soon).
 
 ## Changelog
 All past changes to this project will be documented in the [changelog](/changelog.md) page.
+
+### Albatross Backend 1.5.4
+Bug Fixes
 
 ### Albatross Backend 1.5.3
 Mica blur compatibility update

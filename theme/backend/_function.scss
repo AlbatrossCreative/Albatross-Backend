@@ -1,5 +1,7 @@
 @use 'map' as *;
 
+@use 'sass:string';
+
 @mixin ac-hslvar-func($map, $var, $h-base, $s-base, $l-base, $a-base, $saturation: null) {
 	@each $id, $calc in $map {
 		// maps in map.scss
@@ -10,13 +12,14 @@
 
 		$l-calc: nth($calc, 3); // third value
         
+		$alpha: $a-base;
 
 		@if $saturation {
 			// If saturation, add saturation factor
             --#{$var}-#{$id}: hsla(calc(#{$h-base} #{$h-calc}),
                 calc(calc(#{$s-base} #{$s-calc}) * var(--saturation-factor, 1)),
                 calc(#{$l-base} #{$l-calc}),
-                #{$a-base}) !important;
+                #{$alpha}) !important;
 		}
 
 		@else {
@@ -24,7 +27,7 @@
 			--#{$var}-#{$id}: hsla(calc(#{$h-base} #{$h-calc}),
 				calc(#{$s-base} #{$s-calc}),
 				calc(#{$l-base} #{$l-calc}),
-				#{$a-base}) !important;
+				#{$alpha}) !important;
 		}
 	}
 }
@@ -33,14 +36,14 @@
 .theme-light,
 .images-light,
 .theme-light {
-    @include ac-hslvar-func($ACBG-LIGHT, 'background', var(--ACV01), var(--ACV02), var(--ACV03), var(--ACV-A1));
+    @include ac-hslvar-func($ACBG-LIGHT, 'background', var(--ACV01), var(--ACV02), var(--ACV03), var(--ACVA1));
 
-    @include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACV-A4), saturation);
-    @include ac-hslvar-func($ACT, 'text', var(--ACV07), var(--ACV08), var(--ACV09), var(--ACV-A3),saturation);
-    @include ac-hslvar-func($ACBM, 'background-modifier', var(--ACV13), var(--ACV14), var(--ACV15), var(--ACV-A5),saturation);
-    @include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), var(--ACV-A2),saturation);
-    @include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), var(--ACV-A6),saturation);
-    @include ac-hslvar-func($ACICON, 'icon', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACV-A4),saturation);
+    @include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACVA4), saturation);
+    @include ac-hslvar-func($ACT, 'text', var(--ACV07), var(--ACV08), var(--ACV09), var(--ACVA3),saturation);
+    @include ac-hslvar-func($ACBM, 'background-modifier', var(--ACV13), var(--ACV14), var(--ACV15), var(--ACVA5),saturation);
+    @include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), var(--ACVA2),saturation);
+    @include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), var(--ACVA6),saturation);
+    @include ac-hslvar-func($ACICON, 'icon', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACVA4),saturation);
 
 }
 
@@ -55,14 +58,14 @@
 .theme-dark,
 .theme-darker,
 .theme-midnight {
-	@include ac-hslvar-func($ACBG-DARK, 'background', var(--ACV01), var(--ACV02), var(--ACV03), var(--ACV-A1));
+	@include ac-hslvar-func($ACBG-DARK, 'background', var(--ACV01), var(--ACV02), var(--ACV03), var(--ACVA1));
 
-    @include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACV-A4), saturation);
-    @include ac-hslvar-func($ACT, 'text', var(--ACV07), var(--ACV08), var(--ACV09), var(--ACV-A3),saturation);
-    @include ac-hslvar-func($ACBM, 'background-modifier', var(--ACV13), var(--ACV14), var(--ACV15), var(--ACV-A5),saturation);
-    @include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), var(--ACV-A2),saturation);
-    @include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), var(--ACV-A6),saturation);
-    @include ac-hslvar-func($ACICON, 'icon', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACV-A4),saturation);
+    @include ac-hslvar-func($ACI, 'interactive', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACVA4), saturation);
+    @include ac-hslvar-func($ACT, 'text', var(--ACV07), var(--ACV08), var(--ACV09), var(--ACVA3),saturation);
+    @include ac-hslvar-func($ACBM, 'background-modifier', var(--ACV13), var(--ACV14), var(--ACV15), var(--ACVA5),saturation);
+    @include ac-hslvar-func($ACA, 'brand', var(--ACV04), var(--ACV05), var(--ACV06), var(--ACVA2),saturation);
+    @include ac-hslvar-func($ACBV, 'ac-border', var(--ACV21), var(--ACV22), var(--ACV23), var(--ACVA6),saturation);
+    @include ac-hslvar-func($ACICON, 'icon', var(--ACV10), var(--ACV11), var(--ACV12), var(--ACVA4),saturation);
 }
 
 

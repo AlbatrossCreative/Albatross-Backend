@@ -20,37 +20,37 @@ html:root {
     --ACV01: 232;
     --ACV02: 32%;
     --ACV03: 27%;
-    --ACV-01: 1; 
+    --ACVA1: 1; 
 
     /* Palette Accent HSL */
     --ACV04: 170;
     --ACV05: 76%;
     --ACV06: 32%;
-    --ACV-02: 1; 
+    --ACVA2: 1; 
 
     /* Palette Text HSL */
     --ACV07: 240;
     --ACV08: 11%;
     --ACV09: 92%;
-    --ACV-03: 1; 
+    --ACVA3: 1; 
 
     /* Palette Interactive HSL */
     --ACV10: 213;
     --ACV11: 47%;
     --ACV12: 89%;
-    --ACV-04: 1; 
+    --ACVA4: 1; 
 
     /* Background Modifier HSL */
     --ACV13: 170;
     --ACV14: 76%;
     --ACV15: 36%;
-    --ACV-05: 1; 
+    --ACVA5: 1; 
 
     /* Border HSL */
     --ACV21: 218;
     --ACV22: 10%;
     --ACV23: 36%;
-    --ACV-06: 1; 
+    --ACVA6: 1; 
 }
 
 .theme-light {
@@ -58,35 +58,35 @@ html:root {
     --ACV01: 210;
     --ACV02: 30%;
     --ACV03: 84%;
-        --ACV-01: 1; /* New variable for light theme */
+        --ACVA1: 1; /* New variable for light theme */
 
     /* Palette Accent HSL */
     --ACV04: 170;
     --ACV05: 76%;
     --ACV06: 32%;
-        --ACV-02: 1; /* New variable for light theme */
+        --ACVA2: 1; /* New variable for light theme */
 
     /* Palette Text HSL */
     --ACV07: 232;
     --ACV08: 9%;
     --ACV09: 29%;
-        --ACV-03: 1; /* New variable for light theme */
+        --ACVA3: 1; /* New variable for light theme */
 
     /* Palette Interactive HSL */
     --ACV10: 170;
     --ACV11: 65%;
     --ACV12: 32%;
-        --ACV-04: 1; /* New variable for light theme */
+        --ACVA4: 1; /* New variable for light theme */
 
     /* Background Modifier HSL */
     --ACV13: 170;
     --ACV14: 76%;
     --ACV15: 36%;
-        --ACV-05: 1; /* New variable for light theme */
+        --ACVA5: 1; /* New variable for light theme */
 
     /* Border HSL */
     --ACV21: 218;
     --ACV22: 10%;
     --ACV23: 36%;
-        --ACV-06: 1; /* New variable for light theme */
+        --ACVA6: 1; /* New variable for light theme */
 }

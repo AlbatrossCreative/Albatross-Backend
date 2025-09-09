@@ -40,7 +40,7 @@ Major backend overhaul, all palettes now support both light and dark mode brings
 - Fixed variables not automatically overriding in discord.
 - Fixed saturation factor bugs
 
-## [v1.5.2] 2025-08-22
+## [v1.5.3] 2025-08-22
 Mica blur compatibility update
 
 ### Added
@@ -49,3 +49,7 @@ Mica blur compatibility update
 
 ### Removed
 - Removed unnecessary variables for performance.
+
+## [v1.5.4] 2025-08-22
+
+Bug Fixes
